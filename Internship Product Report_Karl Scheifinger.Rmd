@@ -1,0 +1,402 @@
+---
+title: "Internship at UNEP's Science Division <br> Product Report"
+author: "Karl Scheifinger"
+date: "2022-12-01"
+output:
+  bookdown::html_document2:
+    theme: "readable"
+    toc: true
+    toc_float: true
+    fig_caption: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Introduction & Internship context
+
+This report summarises my 5-month internship at UNEP's headquarter in Nairobi, Kenya. The introduction outlines the most important concepts relevant to my internship. After defining the internship objective, the result section provides an overview of the different activities that I conducted over the internship period. The report ends with a literature-based reflection on my experiences.
+
+```{r fig0, out.width='75%', fig.align='center', fig.cap="Entrance to the UNEP HQ", echo=FALSE}
+knitr::include_graphics('Graphs/UNEP entrance.jpeg')
+```
+
+
+## Global Environmental Governance
+
+To overcome shared environmental problems, the international community endeavours to create collective responses. Examples of such problems are the climate crisis, biodiversity loss and environmental pollution. Global environmental governance (GEG) summarises all those activities with which the international community attempts to manage such global environmental challenges (O’Neil, 2017b).
+
+In recent decades, international diplomacy has been the major driver for progress in GEG. Most of this progress was achieved within multi-lateral treaties between nation-states (O’Neil, 2017b). Essential actors in the diplomatic field are intergovernmental organisations, which operate with state-lend legitimacy. Central organisations are international financial institutions (e.g. WTO, IMF) and the UN with its associated agencies.
+
+Within the UN system, United Nations Environment Programme (UNEP) - my internship provider -  and the United Nations Development Programme (UNDP) are at the forefront of GEG (O’Neil, 2017a). UNEP contributes to GEG activities by providing a platform for international cooperation, for example, by initiating and supporting the creation of multilateral agreements. UNEP also supports information-based governance, amongst others, through the provision of policy-relevant information through scientific reports (O’Neil, 2017b).
+
+## Sustainable Development
+
+Sustainable development is the central concept of the global environmental agenda (Connelly et al., 2012). In simple terms, sustainable development describes the best imaginable path for human development. The precise definition of the concept, however, changed over time. The concept first appeared on the global agenda in 1987 when the World Commission on Environment and Development (WCED) published ‘Our Common Future’, also referred to as the Brundtland report. (Connelly et al., 2012). Initially, the Brundtland report understood sustainable development as a “dynamic optimization problem of intergenerational equity” (Bali Swain & Yang-Wallentin, 2020, p.4) and defined it through seven core features (Zaccai, 2012). However, since the 1990s, a three-dimensional understanding has been prevalent. Thereby sustainable development is defined as encompassing of environmental, societal and economic progress (Zaccai, 2012).
+
+A central feature of sustainable development is its vague definition that allows for multiple lines of interpretation (Connelly et al., 2012; Zaccai, 2012). It earmarks sustainable development as an “umbrella concept” (Connelly et al., 2012, p.5), whose malleability allows its adaptation to many different contexts. Overall, sustainable development can be understood as an alternative to the traditional policy paradigm that rests on reactive, end-of-pipe environmental action (Carter, 2007). Two major, more specific interpretations of sustainable development prevail. Based on a weak understanding of sustainability, sustainable development can be read as a programme of reform. (Zaccai, 2012). The core assumption is that economic growth and increasing environmental quality are not excluding each other (Connelly et al., 2012).
+Following a strict understanding of sustainability, sustainable development is a concept of transformation (Zaccai, 2012), that requires an uncompromising re-assessment of all economic activities (Connelly et al., 2012).
+
+## Sustainable Development Goals
+
+The sustainable development goals (SDGs), displayed in Figure \@ref(fig:fig1), represent the major framework for sustainable development on a global scale (Biermann et al., 2022). Placed at the core of the Agenda 2030, which was approved by the UN in 2015, the SDGs are meant to replace the Millennium Development Goals (MDGs), which terminated the same year (Bali Swain, 2018). The MDGs consisted of eight goals, with only one goal dedicated to the environment (UN, 2015). In contrast, the SDGs contain 17 goals, including 169 targets and 231 indicators to measure those targets (UNSD, 2022) and put a strong focus on nature. With the goals outlining the overall aspired change, targets practically define how this change should be achieved. The indicators, eventually, describe how the achievement of those targets will be measured (Smith, 2020).
+With the goals outlining the overall aspired change, targets practically define how this change should be achieved. The indicators, eventually, describe how the achievement of those targets will be measured (Smith, 2020).
+
+```{r fig1, out.width='50%', fig.align='center', fig.cap="The Sustainable Development Goals", echo=FALSE}
+knitr::include_graphics('Graphs/Figure 1 SDGs.png')
+```
+
+
+The scientific literature consulted for this report criticises the SDGs in three main points. SDGs are found to be inconsistent, vague and lacking transformative impact.
+Firstly, it was found that the SDGs include serious inconsistencies. Based on statistical analysis, Hickel (2019) found a significant contradiction between SDG 8 (Decent work and economic growth) and other environmentally-related SDGs (e.g. SDG 13, SDG 14, SDG 15). This means that advancing SDG 8 jeopardises progress in other SDGs. (Bali Swain, 2018) also points out the inherent trade-offs between goals focusing on socio-economic development and those focusing on environmental quality. Such inconsistencies result from the ambiguity of the concept of sustainable development itself (Zaccai, 2012) and reflect the deeper conflict between economic and natural systems (Bali Swain, 2018). On the positive side, however, the SDGs do include not only trade-offs but also synergies. Examples of such synergies are the re-enforcing effects of human health programmes and improving environmental quality (Bali Swain, 2018).<br>
+Secondly, the SDGs are harshly criticised for their overall vagueness and lack of focus (Bali Swain, 2018; Bali Swain & Yang-Wallentin, 2020). However, Biermann et al. (2022) point out that the SDGs were purposefully designed to give room to multiple interpretations for the sake of applicability. As with the first point of criticism, this drawback of the SDGs is caused by the features of the concept of sustainable development itself.<br>
+Lastly, the SDGs have failed so far to have a transformative impact on human societies and thereby don’t live up to their purpose as proclaimed in the Agenda 2030. It was found that the SDGs had mainly a discursive impact. The change brought to legal systems and institutional arrangements was limited. Nevertheless, it was also found that the SDGs had normative and institutional impacts to some extent. For example, SDGs further fostered mutual learning between nation-states and opened up new ways of mobilising international funding (Biermann et al., 2022). <br>
+Despite their pitfalls, the SDGs have the potential to provide guidance to the whole of humanity (Lyytimäki et al., 2020). They represent the most elaborate and comprehensive to-do list for sustainable development on a global scale (Bali Swain & Yang-Wallentin, 2020; Biermann et al., 2022) with no alternatives in sight.
+
+By relying on goal setting, the SDGs mark a departure from traditional top-down steering or established market approaches that long dominated to global policy domain (Biermann et al., 2017).
+From a policy perspective, the SDGs feature four unique characteristics. They are (i) not legally binding and detached from the international legal system, (ii) based on weak institutional arrangements, (iii) created within a globally inclusive process and (iv) provide leeway for national choices and preferences (Biermann et al., 2017). <br>
+As a new policy instrument in GEG, goal setting faces important criticism. It is assumed that relying on goal-setting leads to cherry-picking SDGs by nation-states (Biermann et al., 2022). Furthermore, it is doubted whether a purely normative framework can translate into concrete action (Bali Swain, 2018; Bali Swain & Yang-Wallentin, 2020). <br>
+The SDGs give cause to a lot of data reporting, providing civil society and private actors with new means to hold their governments to account (Biermann et al., 2022). This indirectly opens up novel ways of governance through transparency.
+
+
+## Monitoring the SDGs
+
+The success of the SDGs critically depends on their monitoring (Biermann et al., 2017; Schmidt-Traub et al., 2017). Monitoring is the “continuous collection, analysis and use of information(Saner et al., 2019, p.6). Monitoring systems are essential because they provide a constant stream of information (Saner et al., 2019), support target/actual comparisons and allow for evidence-based policy changes (Saner et al., 2019; Schmidt-Traub et al., 2017). Monitoring also generates a lot of data that allows to visualise and communicate the progress made (Smith, 2020).
+Monitoring the SDGs means monitoring the respective SDG indicators at the roots of the SDG framework. The indicators simplify the complex construct of the SDGs, provide tangible information and facilitate communication (Lyytimäki et al., 2020). In short, without data on SDG indicators, evaluating the progress of the SDGs is barely possible (Saner et al., 2019).
+
+The Environment Statistics and SDG unit at UNEP, under which I worked during this internship, monitors the progress of 92 environmentally-related SDG indicators on a regional and global scale. Findings are reported every two years in a Measuring Progress report. From a policy perspective, this kind of monitoring resembles an ex-nunc (Crabbé & Leroy, 2008) approach to evaluation. A goal achievement model (Mickwitz, 2003) is applied because the monitoring focuses purely on the progress made with respect to initial SDG targets. Drawing from the different policy effects described by Crabbé & Leroy (2008), this model is used to scrutinise the impacts of the SDGs (i.e. the indicator changes). Policy outputs (policies) and outcomes (behavioural change) are not observed.
+
+# Knowledge gap & Project goal
+Based on the work of my unit, the knowledge gap that determined the focus of this internship was: What are the current trends of environmental SDG indicators?
+To close this knowledge gap, the overarching goal of this internship was to contribute to the reporting on the progress trends of 92 environmental SDG indicators. This meant contributing to the third edition of the Measuring Progress report series, in line with UNEP’s publication circle. The title of this third edition of the Measuring Progress report (MPR 3) is Measuring Progress: Water-Related Ecosystems and the SDGs.
+
+## UNEP’s Environment statistics and SDG unit
+UNEP, the United Nations Environment Programme, was founded in 1972 at the UN conference in Stockholm. (UN, n.d.) Headquartered in Nairobi, Kenya, it's mission is “to provide leadership and encourage partnership in caring for the environment by inspiring, informing, and enabling nations and peoples to improve their quality of life without compromising that of future generations.” (UNEP, n.d.-a) To fulfil this mission, UNEP structures it’s activities around three planetary crises: climate change, nature and biodiversity loss, and pollution and waste (UNEP, n.d.-a).
+On top of UNEP’s hierarchy is the executive office, which is led by UNEP’s executive director. Currently this position is occupied Inger Andersen. The executive office oversees six regional offices (categorised by location) and seven divisions (categorised by task) (UNEP, n.d.-b).
+One of those divisions is the science division. The science division itself consists of multiple branches. Amongst them is the Capacity Development and Innovation Branch. The Environment Statistics and SDGs unit, for which I worked during my internship, is part of this branch. The unit was created in 2015 by its current head, Ludgarde Coppens, to support the review process of the 2030 Agenda on Sustainable Development (UNSSC, n.d.). Next to reporting on the progress of the 92 environment-related SDG indicators, the unit is also responsible for collecting data on the 25 SDG indicators for which UNEP acts as custodian agency. <br>
+Figure \@ref(fig:fig2) provides a general overview of UNEP's organisation.
+
+```{r fig2, out.width='100%', fig.align='center', fig.cap="UNEP's organisation chart", echo=FALSE}
+knitr::include_graphics('Graphs/Figure 2 UNEP orga.png')
+```
+
+# Results
+
+To achieve the described project goal, I completed 16 tasks that can be summarised in four major areas: literature research, data science, editorial work and others. Figure \@ref(fig:fig3) provides an overview of the areas of work and the respective tasks.
+
+```{r fig3, out.width='100%', fig.align='center', fig.cap="Task overview", echo=FALSE}
+knitr::include_graphics('Graphs/Figure 3 Result table.png')
+```
+
+## Literature Research
+
+The overall purpose of all literature research activities was to identify credible sources relevant to drafting chapters of MPR 3. The guiding theme of MPR 3 is aquatic ecosystems. Because of that, all my literature research included water as a main topic. <br>
+I presented the results of my literature research in a way that made it my colleagues responsible for drafting the easiest to incorporate my findings. This included: (i) briefly summarising each source within one or two sentences, (ii) indicating relevant sections through page references, (iii) providing a full citation for every source and (iv) providing a link to each document. Figure \@ref(fig:fig4) showcases how I presented my findings.
+In some cases, I also downloaded all scientific papers included in the review. 
+
+```{r fig4, out.width='50%', fig.align='center', fig.cap="Example literature research", echo=FALSE}
+knitr::include_graphics('Graphs/Figure 4 Literature Presentation.png')
+```
+
+
+Five out of six literature reviews focused on scientific articles and UN reports published latest in 2015. More information on the total number of sources found is provided in Figure \@ref(fig:fig5). The aim of my first literature research was to give an overview of global and regional threats to aquatic ecosystems. Examples of identified threats are climate change, invasive species, fragmentation of habitats, governance failures and various types of human-induced pollution (e.g. plastics, POPs, waste water). It quickly became apparent that anthropogenic activities are at the root of all primary threats to aquatic ecosystems. I further found that poverty, social inequality, conflicting views, the need for cross-institutional cooperation and the lack of data are major barriers to addressing those threats. <br>
+To understand the goal of the other four scientific literature reviews, it is important to know that MPR 3 attempts to shed light on interlinkages within the SDG framework. To do so, a statistical model was created. Based on the DPSIR framework, this model captures SDG indicators either as drivers or states.The model then estimates how indicators categorised as drivers cause changes in indicators labelled as states. <br>
+I conducted the other four scientific literature reviews to verify the interlinkages indicated by the statistical model. This included research related into eutrophication, employment, poverty, malnutrition and freshwater quality. Concrete findings cannot be presented here, because they would pre-empt unpublished report findings.
+
+```{r fig5, out.width='50%', fig.align='center', fig.cap="Results of literature research", echo=FALSE}
+knitr::include_graphics('Graphs/Figure 5 Literature Review.png')
+```
+
+Next to scientific literature reviews, I also conducted a policy analysis on regional water policies that are associated to either the UN decade of Water Action (2018-2028) or the UN decade of Ocean Science (2021-2030). The regional focus of this work was Sub-Saharan Africa, Asia and the Pacific, as well as Latin America and the Caribbean. Major sources were websites and reports of UN agencies such as UNESCO, ECLAC and ESCAP and policy documents provided by regional policy institutions like the Coordinating Body of the Seas of East Asia (COBSEA). Figure \@ref(fig:fig6) gives an overview of the result of the policy analysis.
+
+```{r fig6, out.width='50%', fig.align='center', fig.cap="Result of policy analysis", echo=FALSE}
+knitr::include_graphics('Graphs/Figure 6 Policy analysis.png')
+```
+
+
+## Data science
+
+A large part of my work was related to the preparation and visualisation of data for MPR 3. Except for the scorecards, all visuals were created within the R programming language. The R package ggplot offers a simple and effective way to produce appealing visuals. Furthermore, it is possible to produce HTML documents that are easy to share with people that do not have R software installed on their devices. SDG data is mentioned in this chapter only refers to data on the 92 environmental SDG indicators and not the complete SDG data set. <br>
+**Please note**: to avoid confidentiality breaches, this section only displays fake data.
+
+My first task was to prepare and analyse data indicating the current trends of 92 environmental SDG indicators across the 9 SDG regions and the world and their subsequent visualisation. Firstly, the task required me to compile a list of all environmental SDG indicators and their specific sub-indicators. This step is important because one indicator can include multiple sub-indicators. For example, in the case of indicator 6.6.1 (Change in the extent of water-related ecosystems over time), more than 20 sub-indicators are specified in the metadata. To meaningfully communicate the progress of environmental SDGs, however, only one sub-indicator is reported for each indicator. In a second step, I automatised the creation of pivot tables via the programming language Python. I decided to automatise the process to save time in case of data updates and to minimise the chance of human mistakes in handling the data. Eventually, based on those pivot tables, I used MS Publisher to design the scorecards that are used to communicate the SDG progress. Thereby I followed the template from the previous Measuring Progress report. <br>
+This task required a lot of concentration and proper work. The scorecards are used to discuss SDG progress on the highest political levels. Errors in those visuals are unacceptable. Therefore, work on the scorecards included many different verification processes ranging from peer reviews to double-checking the steps taken by the Python algorithm. To avoid problems related to confidentiality, Figure \@ref(fig:fig7) shows a the global scorecard from the previous Measuring Progress report. This scorecard is identical to the scorecards I produced.
+
+
+```{r fig7, out.width='100%', fig.align='center', fig.cap="Global scorecard in UNEP (2021, p.13).", echo=FALSE}
+knitr::include_graphics('Graphs/Figure 7 Score card MPR2.png')
+```
+
+
+While working on the scorecards required much focus on data wrangling, my work on the data gaps within the SDG indicators was strongly concentrated on data analysis and visualization. The Measuring Progress series reports on progress using three categories: no data or insufficient data, little change or negative trend and positive trend. The overarching objective of this task was to visualize the development of data gaps (i.e. the indicators within the “no data or insufficient data” category). For this purpose, I compiled the results of all three reporting years (2018, 2020, 2022) and produced graphs showing the data gaps’ development over time. Multiple rounds of feedback from colleagues helped me improve the layout, coloring and patterns of the graph and motivated me to create interactive visualizations. Figure \@ref(fig:fig8) shows an example of the interactive graph.
+
+```{r load libaries, include = FALSE,echo=FALSE}
+#Import libraries
+library(ggplot2)
+#for text labeling of graphs
+library(ggrepel)
+library(dplyr)
+library(gridExtra)
+library(tidyr)
+library(tibble)
+#for colors
+library(RColorBrewer)
+#for interactive plots
+library(plotly)
+library(lemon)
+```
+```{r prepare data gaps, include = FALSE,echo=FALSE}
+#create fake data
+set.seed(13579)# Set seed
+#fake <- floor(runif(3, min=0, max=101))
+#https://rgraphs.com/how-to-create-dummy-data-in-r/
+fake <-data.frame() 
+SDG <- rep(c(1,2,3,4,5,6,7,8,9,11,12,13,14,15,17), times = 9)
+Year <- rep(
+  c(rep(c("2018"), times = 15),
+    rep(c("2020"), times = 15),
+    rep(c("2022"), times = 15)), times = 3)
+Category <- c(
+  rep(c("Little change or a negative trend"), times = 45),
+  rep(c("No data or insufficient data"), times = 45),
+  rep(c("Positive trend"), times = 45))
+n <- floor(runif(45*3, min=5, max=101))
+#compile df
+fake <- data.frame(Year,SDG, Category, n)
+#Turn category and year into factors
+fake$Year <- factor(fake$Year, 
+                       levels = c("2018", "2020", "2022"))
+fake$Category <- factor(fake$Category,
+                          levels = c('Positive trend','Little change or a negative trend','No data or insufficient data'))
+
+
+
+to_plot <- fake %>%
+  group_by(Year, SDG, Category) %>%
+  summarise(n=n)%>%
+  mutate(freq = n/sum(n))%>%
+  mutate(label = scales::percent(freq, accuracy = 2)) %>%
+  mutate(color = ifelse(Category == 'Little change or a negative trend', "#d9ef8b",
+                         ifelse(Category == "Positive trend", "#66bd63", '#e0e0e0')))
+
+
+
+#create list for headers of facet
+sdg_labels <- c(
+  '1' = "SDG 1",
+  '2'= "SDG 2",
+  '3' = "SDG 3",
+  '4' = "SDG 4",
+  '5' = "SDG 5",
+  '6' = "SDG 6",
+  '7' = "SDG 7",
+  '8' = "SDG 8",
+  '9' = "SDG 9",
+  '11' = "SDG 11",
+  '12' = "SDG 12",
+  '13' = "SDG 13",
+  '14' = "SDG 14",
+  '15' = "SDG 15",
+  '17' = "SDG 17"
+)
+
+
+
+plot <- ggplot(data = to_plot, aes(x = Year, y = freq, fill = Category))+
+  geom_bar(stat = 'identity', position = "stack", width = 0.85)+
+  scale_fill_manual(values = c("#5b92e5","#9ab5ee","#ced9f7"))+
+  labs(x = '', y = '',
+       title = "Global development of environmental SDG indicators", subtitle ="from 2018 to 2022",
+       caption = "The baseline for progress reporting is 2015. This graph shows dummy data.")+
+  scale_x_discrete(breaks = c("2018", "2020", "2022"))+
+  geom_text(aes(label=label), size = 4, position = position_stack(vjust = 0.5))+
+  coord_cartesian(clip = 'off')+
+  theme(
+    axis.text.y = element_blank(),
+    axis.text.x = element_text(size = 11, color = 'black'),
+    axis.line.x = element_line(),
+    title = element_text(size = 14, face = 'bold', vjust = 1, margin = (b=2)),
+    panel.background = element_rect( fill = "white"),
+    axis.ticks.y = element_blank()
+  )+
+  facet_rep_wrap(~SDG,
+             scales = 'free',
+             labeller = labeller(SDG = sdg_labels),
+             repeat.tick.labels = "bottom",
+             ncol = 5
+             )+
+  theme(
+    strip.text.x = element_text(face = "bold", size = 14),
+    strip.background = element_rect(fill = "white", color = "black"),
+    legend.title = element_text(size = 14),
+    legend.text = element_text(size = 12)
+  )
+```
+
+```{r fig8, include = TRUE,echo=FALSE, show =TRUE, fig.dim = c(12, 8), fig.cap="Global SDG data gaps. This graph depicts dummy data."}
+
+
+fig <- ggplotly(plot,
+         tooltip = c('n', "Year")) %>%
+  layout(legend = list(x=1, y=0.5),
+         title = list(y=1.5,
+                      text = paste0('Global development of environmental SDG indicators',
+                                    '<br>',
+                                    '<sup>',
+                                     'from 2018 to 2022','</sup>')),
+         margin = list(t= 120))
+
+fig
+```
+
+Similar to the data gaps, I also created visuals that display the overall trends of freshwater, marine and other environmental indicators. However, the decision was made not to include those visuals in MPR 3 because they might send the wrong signal.
+
+My final data science task was to visualize the difference between SDG indicator progress, as described in MPR 3, and the achievement of SDG targets. Focused on one SDG target, I produced a graph that depicts that it is possible to report a positive trend each year and still clearly miss the target in 2030. A similar graph is displayed in Figure \@ref(fig:fig9). It is assumed that the SDG target aims for 100% of the population reaching a certain criteria by 2030.
+
+
+```{r prepare lineplot, include=FALSE, echo=FALSE}
+#create fake data
+set.seed(13589)# Set seed
+Time <- seq(from=2000,to=2022)
+Value <- seq(from=0.05, to = 0.5, length.out = 23) * runif(23, min=0.9, max=1.15)
+fake <- data.frame(Time, Value)
+
+#set baseline distinction
+fake['Color'] = ifelse(fake$Time < 2016, "Before Baseline", "Reported Progress")
+#produce lm line
+lm <- ggplot_build(
+  ggplot(data = fake, aes(x=Time, y=Value))+
+  geom_point(aes(color=Color))+
+  stat_smooth(method = "lm",
+              formula = y ~ x,
+              se = FALSE))$dat[[2]]
+#add 2030 to trendline
+new_row <- c(2030, (0.04138257 + 0.02203675*30),
+             NA, NA, NA, NA, NA, NA, NA, NA, NA)
+lm <- rbind(lm, new_row)
+
+#prepare plot
+plot <- ggplot(data = fake, aes(x=Time, y=Value))+
+  geom_point(aes(color=Color), size = 2, shape=16, stroke = 1)+
+  geom_point(aes(x=2030, y=1), size = 6, shape = 16, stroke = 2,
+             color = rgb(red = 37, green = 3, blue = 241, maxColorValue = 255 ))+
+  geom_line(data=lm, aes(x, y, color="Trend Line"))+
+  scale_color_manual("", values=c(rgb(red = 204, green = 236, blue = 255, maxColorValue = 255),
+                              rgb(red = 0, green = 158, blue = 214, maxColorValue = 255),
+                              "black"))+
+  labs(x="Year", y="Part of Population (%)",
+       title = "Progress is not enough",
+       subtitle = "SDG target XXX and reported progress",
+       caption = "The baseline for progress reporting is 2015. This graph displays dummy data.")+
+  scale_y_continuous(labels = scales::percent)+
+  scale_x_continuous(breaks = c(2000, 2005, 2010, 2015, 2020, 2025, 2030))+
+  
+  theme_classic()+
+  theme(
+      panel.grid.major = element_line(linewidth  = 0.5, linetype = 'solid', colour = "grey"),
+      panel.grid.major.x = element_blank()
+      )
+#create interactive plot
+fig <- ggplotly(plot,tooltip = c('Time', "Value"))
+
+#add SDG target label
+lab <- list(
+  x = 2030,
+  y = 1,
+  text = " <b> SDG Target XXX </b>",
+  xref = "x",
+  yref = "y",
+  text = "Left Anchor",
+  showarrow = FALSE
+)
+
+
+#add labels to plot
+fig <- fig %>% layout(annotations = lab)
+```
+
+```{r fig9, include = TRUE,echo=FALSE, show =TRUE, fig.dim = c(12, 8), fig.cap="Interactive graph showing the difference between positive trends and SDG achievment. <br> This graph depicts dummy data."}
+
+fig
+```
+
+## Editorial work
+
+In two ways, I have been directly involved in drafting the text of MPR 3. Firstly, based on the policy analysis described in the section on [literature research](#literature-research), I drafted the first version of paragraphs that broadly outline policy developments in three SDG regions. Moreover, I was responsible for inserting and verifying references for chapters five and six and the section dedicated to North America.
+
+My feedback on a technical report was not directly related to MPR 3 but relevant to reporting on SDG progress. Based on multiple country case studies, this report attempts to identify factors that either promote or hamper the progress of the 25 SDGs for which UNEP acts as a custodian agency. In addition, I contributed to the improvement of the report by providing precise and constructive feedback on the structure and wording of the document.
+
+I was also entrusted with summarising a statistical report. The report outlined the methodology of the statistical model used to investigate interlinkages within the SDG framework. More context regarding the model is provided in the section on [literature research](#literature-research). The objective was to shorten the 70-page long document into a technical summary not exceeding five pages.
+
+
+```{r fig10, out.width='50%', fig.align='center', fig.cap="Results of editorial work", echo=FALSE}
+knitr::include_graphics('Graphs/Figure 10 Editorial work.png')
+```
+
+## Other
+To ensure the credibility and scientific integrity of MPR 3, a panel of internal and external experts from the UN system provided feedback on the first draft of the report. I was involved in organizing this three-week-long peer review process. My responsibilities included communicating with experts and acting as the central contact person for questions regarding the peer review. <br> 
+The peer review builds on experts recording their feedback within special MS Excel sheets. Therefore, a significant part of this task involved compiling the feedback from individual experts within a Master Excel file that I had designed. Figure \@ref(fig:fig11) provides an overview of the peer review.
+
+```{r fig11, out.width='50%', fig.align='center', fig.cap="Coarse overview of peer review", echo=FALSE}
+knitr::include_graphics('Graphs/Figure 11 Peer review.png')
+```
+
+Not directly related to the MPR 3 report, but an essential part of reporting progress of the 92 environmental SDG indicators are Regional and Global Scorecards on the [Sustainable Development Homepage](https://wesr.unep.org/article/sustainable-development-goals-0) of UNEP. On this webpage, the scorecards can be found under Monitoring Progress > Global and Regional Scorecard. These scorecards provide a timely summary of SDG progress on a regional and global level. My last task involved ensuring that the data displayed within those online scorecards was correct. I further noted down the irregularities and bugs of the webpage. The result of my work was an extensive list of constructive suggestions for improvement, many of which got subsequently incorporated.
+
+# Reflection on results
+
+Working on MPR 3 made me understand the significance of the work done at the UNEP headquarters. It was eye-opening to learn how complex and team-oriented the publication of a report with global outreach is. I am referring to the UNEP headquarters in Nairobi specifically because UNEP country offices or other UNEP organisations are engaging in different types of work.
+
+Given the range of tasks alone, within the scope of MPR 3, I gained a better understanding of the manifold tasks that are part of writing a global report. I compiled, analysed and visualised data, read various scientific papers, reports and policy documents and reviewed and drafted paragraphs. Still I was only involved in a small number of activities required to execute such a project. Therefore, I came to appreciate the role UNEP headquarters is playing in such a delicate process: without it acting as a central point for communication and coordination, an undertaking such as MPR 3 would be completely unfeasible.<br>
+It also was revealing to see how many different teams were involved in the process of drafting MPR 3. The academic and expert community is full of specialised teams. Each chapter, in some cases even each section, was authored by a different expert group. I now also understand that involving many different voices and perspectives is the central UN approach to ensure relevant, credible and legitimate publications. Generating knowledge on the UN level is genuinely a collective process. Therefore, the teams working at the UNEP headquarters are responsible for comprehensively structuring a great variety of inputs.
+
+During my work, I realised that monitoring the SDG, and therewith sustainable development, through SDG indicators has several implications.
+Relying on indicators evokes risks. There are three categories of such risks: overuse, misuse and non-use (Lyytimäki et al., 2020). Overuse occurs when too much focus of the debate is centred on a single indicator. An excellent example of a very dominant is indicator 8.1.1 - GDP growth per capita. On the other hand, Biermann et al. (2022) argue that is unavoidable that nation-states emphasise certain indicators over others, given the range of SDG indicators available. 
+Misuse describes the incorrect application of an indicator, whether purposefully or not. Such misinterpretations can occur because the limitations of an indicator are not fully understood. Again, a good example is the GDP, often erroneously referred to as a measure of human welfare. Furthermore, missing data can cause false impressions of the current progress within the SDG framework.<br>
+This later issue is closely related to the non-use of indicators. Non-use was identified as the most significant risk regarding the SDG indicator (Lyytimäki et al., 2020). This is in line with the picture I got during my internship. The most frequent data categories of the environmental SDG indicator set are missing and insufficient data.This is because national statistical offices often lack capabilities and resources to collect and report data. Similarly, Lyytimäki et al. (2020) conclude that an important reason for the frequent non-use of SDG indicators is their lacking user-friendliness. Too much focus is put on developing a scientifically sound statistical methodology while the user perspective is largely neglected. Instead of concentrating all efforts on getting the correct numbers, it might be more beneficial to create indicators that are simple to compute and easy to understand. 
+By emphasising SDG interlinkages and thereby not restricting reporting to individual indicators, MPR 3 is already taking steps recommended by Lyytimäki et al. (2020), to reduce the risk of indicator usage.
+
+From a policy perspective, monitoring SDG indicators means monitoring the impact of the SDG framework. However, policies that are the results of the SDG framework and related behavioural changes are not captured in this monitoring system. Therefore, current monitoring efforts cannot answer the question whether the recorded progress within the SDG indicators can be contributed to the existence of the SDG framework or is the product of other political developments. For example, it is impossible to assess whether progress regarding Indicator 13.2.1 (Number of countries with NDCs, long-term strategies, national adaptation plans and adaptation communications, as reported to the secretariat of the UNFCCC) was triggered because of the SDG framework or because of increasing extreme weather events and global youth protest. <br>
+It will further be challenging to evaluate whether or not the SDGs were achieved. In general, it is challenging to evaluate the achievement of a policy goal (e.g. a SDG target) when the measure for achievement is vague or undefined (Crabbé & Leroy, 2008). A significant proportion of SDG targets are unclear and unquantified. For example, it will undoubtedly be difficult to assess the achievement of target 14.1 (By 2025, prevent and significantly reduce marine pollution of all kinds, in particular from land-based activities, including marine debris and nutrient pollution). “Significant” is very hard to translate into concrete numbers. For example, how much pollution reduction is enough? This also leads to the question of how much pollution is justified.<br>
+Lastly, it is important to point out that the progress reported in MPR 3 does not support any conclusions on whether the SDGs will eventually be achieved. This is because the reporting focuses on current trends, but even positive current trends are not necessarily sufficient to achieve the targets by 2030. A promising alternative might be to report on whether continuing current trends is enough to achieve an SDG target. Extrapolating current trend lines offers a simple but certainly imperfect way to do so. This alternative is, of course, only possible in cases where the underlying SDG target is quantifiable.
+
+# Conclusion
+I am confident that after its publication early in 2023, the MPR 3 will provide a good overview of current trends of environmental SDGs. I argue that, therefore, that my work outlined above on MPR 3 helped to close the knowledge gap identified for this report.
+
+I want to conclude this report by returning to the overarching concept of my internship: global environmental governance. According to O’Neil (2017b) there are two prevailing storylines about GEG. The first is a story of failure. Nation states, the major actors in the international system, are unsuccessful in agreeing on and taking necessary action. Looking at the shockingly little progress on SDGs globally, I argue this is true. Together, the data categories “lacking/ insufficient data” and “negative progress” are clearly dominating the SDG framework.
+The second is a story of change. Based on novel technologies and the economic might of the private sector, GEG experiences a power shift towards non-state actors. Recent advances in the monitoring of SDGs also support this argument. Based on my internship, I believe that the increasing relevance of data significantly contributes to such a power shift. Earth observations (i.e. satellite imagery) are one of the most promising ways to use big data to monitor the SDGs (Poleshchuk et al., 2022). Moreover, such data is often publicly available to everyone. Independent of the numbers published by national statistical bureaus, new data sources like earth observations offer exciting opportunities to scrutinise political (in)action. In short, I believe that states will lose – or have already lost – their monopoly over credible data and thereby lose a crucial pillar of power in the digital age.
+Whether access to timely and relevant data empowers civil society or enhances the societal confusion resulting from multiple contradicting sources of information is yet to be seen.
+
+
+# References
+
+- Bali Swain, R. (2018). A Critical Analysis of the Sustainable Development Goals. World Sustainability Series, 341–355. https://doi.org/10.1007/978-3-319-63007-6_20 <br>
+- Bali Swain, R., & Yang-Wallentin, F. (2020). Achieving sustainable development goals: predicaments and strategies. International Journal of Sustainable Development and World Ecology, 27(2), 96–106. https://doi.org/10.1080/13504509.2019.1692316 <br>
+- Biermann, F., Hickmann, T., Sénit, C. A., Beisheim, M., Bernstein, S., Chasek, P., Grob, L., Kim, R. E., Kotzé, L. J., Nilsson, M., Ordóñez Llanos, A., Okereke, C., Pradhan, P., Raven, R., Sun, Y., Vijge, M. J., van Vuuren, D., & Wicke, B. (2022). Scientific evidence on the political impact of the Sustainable Development Goals. Nature Sustainability, 5(9), 795–800. https://doi.org/10.1038/s41893-022-00909-5 <br>
+- Biermann, F., Kanie, N., & Kim, R. E. (2017). Global governance by goal-setting: the novel approach of the UN Sustainable Development Goals. Current Opinion in Environmental Sustainability, 26–27, 26–31. https://doi.org/10.1016/j.cosust.2017.01.010 <br>
+- Carter, N. (2007). The Politics of the Environment Ideas, Activism, Policy. Cambridge University Press. <br>
+- Connelly, J., Smith, G., Benson, D., & Saunders, C. (2012). Politics and the Environment - From theory to practice. In Third edition. Routledge. https://doi.org/10.1007/978-0-387-68930-2_21 <br>
+- Crabbé, A., & Leroy, P. (2008). The Handbook of Environmental Policy Evaluation. Earthscan. https://www.ptonline.com/articles/how-to-get-better-mfi-results <br>
+- Hickel, J. (2019). The contradiction of the sustainable development goals: Growth versus ecology on a finite planet. Sustainable Development, 27(5), 873–884. https://doi.org/10.1002/sd.1947 <br>
+- Lyytimäki, J., Salo, H., Lepenies, R., Büttner, L., & Mustajoki, J. (2020). Risks of producing and using indicators of sustainable development goals. Sustainable Development, 28(6), 1528–1538. https://doi.org/10.1002/sd.2102 <br>
+- Mickwitz, P. (2003). A Framework for Evaluating Environmental Policy Instruments: Context and Key Concepts. Evaluation, 9(4), 415–436. https://doi.org/10.1177/1356389003094004 <br>
+- O’Neil, K. (2017a). Actors in Global Environmental Politics. In The Environment and International Relations (pp. 51–78). Cambridge University Press. <br>
+- O’Neil, K. (2017b). Introduction: The Environment and International Relations. In The Environment and International Relations (pp. 1–27). Cambridge University Press. <br>
+- Poleshchuk, E., Marshall, A., Tottrup, C., Ghafari, D., Coppens, L., & Crane, S. (2022). Use of big data for official environment statistics: The measurement of extent and quality of freshwater ecosystems. Statistical Journal of the IAOS, 38(3), 957–972. https://doi.org/10.3233/SJI-220041 <br>
+- Saner, R., Yiu, L., & Nguyen, M. (2019). Monitoring the SDGs: Digital and social technologies to ensure citizen participation, inclusiveness and transparency. Development Policy Review, 38(4), 483–500. https://doi.org/10.1111/dpr.12433 <br>
+- Schmidt-Traub, G., Kroll, C., Teksoz, K., Durand-Delacre, D., & Sachs, J. D. (2017). National baselines for the Sustainable Development Goals assessed in the SDG Index and Dashboards. Nature Geoscience, 10(8), 547–555. https://doi.org/10.1038/NGEO2985 <br>
+- Smith, M. J. (2020). Sustainable Development Goals: genuine global change requires genuine measures of efficacy. Journal of Maps, 16(2), i–iii. https://doi.org/10.1080/17445647.2020.1749386 <br>
+- UN. (n.d.). United Nations Conference on the Human Environment, 5-16 June 1972, Stockholm. https://www.un.org/en/conferences/environment/stockholm1972#:~:text=The 1972 United Nations Conference,the environment a major issue.&text=One of the major results,Nations Environment Programme (UNEP). <br>
+- UN. (2015). The Millennium Development Goals Report 2015. https://www.un.org/millenniumgoals/2015_MDG_Report/pdf/MDG 2015 rev (July 1).pdf <br>
+- UNEP. (n.d.-a). About UN Environment Programme. https://www.unep.org/about-un-environment <br>
+- UNEP. (n.d.-b). UNEP Organisation Chart. https://wedocs.unep.org/bitstream/handle/20.500.11822/35352/UNEPOrg.pdf <br>
+- UNEP. (2021). Measuring Progress: Environment and the SDGs. https://www.unep.org/resources/publication/measuring-progress-environment-and-sdgs <br>
+- UNSD. (2022). Tier Classification for Global SDG Indicators. https://unstats.un.org/sdgs/files/Tier Classification of SDG Indicators_9 Jun 2022_web.pdf <br>
+- UNSSC. (n.d.). Ludgarde Coppens. https://www.unssc.org/about-unssc/speakers-and-collaborators/ludgarde-coppens <br>
+- Zaccai, E. (2012). Over two decades in pursuit of sustainable development: Influence, transformations, limits. Environmental Development, 1(1), 79–90. https://doi.org/10.1016/j.envdev.2011.11.002
+
+Figure sources: <br>
+- Figure \@ref(fig:fig1):https://wesr.unep.org/article/sustainable-development-goals-0, Accessed 27.11.2022 <br>
+- Figure \@ref(fig:fig2): https://wedocs.unep.org/bitstream/handle/20.500.11822/35352/UNEPOrg.pdf, Accessed 30.11.2022

@@ -14,15 +14,13 @@ Python Jupyter notebook to automatise the creation of scorecards displaying prog
 
 ### Smart Data Environments_APIs.ipynb
 Python Jupyter notebook to obtain data via APIs from Google's Earth Engine and Eurostat.
-First of five notebooks I made for the MSc course Smart Data Environments at Wageningen University.
+First out of five notebooks I made for the MSc course Smart Data Environments at Wageningen University.
 
 ### Smart Data Environments_Visualisations.ipynb
 Python Jupyter notebook for plotting spatial data as well as radar charts and word clouds.
-Second of five notebooks I made for the MSc course Smart Data Environments at Wageningen University.
+Second out of five notebooks I made for the MSc course Smart Data Environments at Wageningen University.
 
 ## R
 ### Internship-Product-Report_Karl-Scheifinger
 Rmd file and resulting html file showcasing visualisations in R and RMarkdown.
-The report was created to finalise my internship at UNEP's Science Divison.
-
-
+I created the report to summarise my internship at UNEP's Science Divison.
